@@ -16,7 +16,7 @@ st.title("Sales Forecasting App")
 # Input fields for user to provide data
 Item_MRP = st.number_input("Item Most Reselling Price (min value=0 , max value=500)", min_value=0.0, max_value=500.0, value=150.0)
 Item_Visibility = st.number_input("Item Visibility (min_value=0 , max_value=0.2)", min_value=0.0, max_value=0.2, value=0.05)
-Item_Weight = st.number_input("Item Weight ( min value=0, max value=20)", min_value=0.0, max_value=20.0, value=10.0)
+Item_Weight = st.number_input("Item Weight ( min value>0, max value=20)", min_value=0.0, max_value=20.0, value=10.0)
 Outlet_Establishment_Year = st.number_input("Outlet Establishment Year (min value=1980 , max value=2020)", min_value=1980, max_value=2020, value=1999)
 Outlet_Type_Supermarket_Type1 = st.number_input("is Outlet Type1 (value= 0 or 1)", min_value=0, max_value=1, value=1)
 Outlet_Type_Supermarket_Type2 = st.number_input("is Outlet Type2 (value= 0 or 1) ", min_value=0, max_value=1, value=0)
